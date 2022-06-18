@@ -1,0 +1,14 @@
+{
+  "name": "icon-manager",
+  "version": "1.0.0",
+  "description": "Software to manage the folder and file icons on Windows",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "https://guuuu.github.io/gxdev",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^19.0.4"
+  }
+}
