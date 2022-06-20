@@ -14,12 +14,6 @@
 yarn install
 ```
 
-## Run tests
-
-```sh
-yarn run test
-```
-
 ## Author
 
 👤 **Gustavo Nascimento**
