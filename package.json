@@ -4,11 +4,29 @@
   "description": "Software to manage the folder and file icons on Windows",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
   "author": "https://guuuu.github.io/gxdev",
   "license": "ISC",
   "dependencies": {
-    "electron": "^19.0.4"
-  }
+    "@types/jquery": "^3.5.14",
+    "autoprefixer": "^10.4.7",
+    "electron": "^19.0.4",
+    "postcss": "^8.4.14",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "vite": "^2.9.12",
+    "vite-plugin-electron": "^0.4.9"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "tailwindcss": "^3.1.3",
+    "typescript": "^4.6.3",
+    "vite": "^2.9.9"
+  },
+  "repository": "git@github.com:guuuu/icon-manager.git"
 }
