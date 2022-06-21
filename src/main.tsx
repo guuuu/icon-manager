@@ -6,7 +6,7 @@ import "./style.css"
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
 	<React.StrictMode>
-		<div className='container mx-auto flex flex-row'>
+		<div className='container bg-main_bg mx-auto flex flex-row'>
 			<Sidebar />
 		</div>
 	</React.StrictMode>
