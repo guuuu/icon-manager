@@ -36,10 +36,10 @@ interface BT {
 const Button: React.FC<BT> = ({icon, text, action}) => {
     return(
         <div className="w-full h-13 p-3 mb-1 flex flex-row items-start last:mt-64 hover:bg-dark_hover hover:cursor-pointer text-white">
-            <div className='w-1/6'>
-                <img src={icon} alt="icon" className="w-7 h-7 ml-3 object-center object-cover" />
+            <div className='w-1/6 h-full'>
+                <img src={icon} alt="icon" className="w-6 h-6 ml-3 object-center object-cover" />
             </div>
-            <div className="w-5/6 pl-3 text-left text-lg">
+            <div className="w-5/6 pl-3 text-left text-lg h-full">
                 <span>{text}</span>
             </div>
         </div>

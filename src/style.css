@@ -11,11 +11,9 @@
     font-family: 'Karla', sans-serif;
 }
 
-html, body{
-    background-color: #1D1D42;
-}
-
-.container{
-    width: 100vw;
-    height: 100vh;
-}
+html, body{ background-color: #1D1D42; }
+.container{ width: 100vw; height: 100vh; }
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #29295e; }
+::-webkit-scrollbar-thumb { background: #232338; }
+::-webkit-scrollbar-thumb:hover { background: #0e0e1f; }
