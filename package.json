@@ -11,6 +11,9 @@
   "author": "https://guuuu.github.io/gxdev",
   "license": "ISC",
   "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/material": "^5.8.5",
     "@types/jquery": "^3.5.14",
     "autoprefixer": "^10.4.7",
     "electron": "^19.0.4",
