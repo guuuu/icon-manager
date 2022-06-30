@@ -6,12 +6,20 @@
   </a>
 </p>
 
-> Software to manage the folder and file icons on Windows
+> I'm using this project as well to learn react, typescript and tailwindcss.
+>
+> The idea of this project is replacing the default windows icons for our own custom icons, so we can give it our own touch.
 
 ## Install
 
 ```sh
 yarn install
+```
+
+## Build
+
+```sh
+yarn run build
 ```
 
 ## Author
