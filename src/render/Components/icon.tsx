@@ -67,10 +67,10 @@ const Icon: React.FC<icon> = ({icon, applied_to, name, parent_name, cs, action})
                 </span>
                 <div className='flex flex-row w-2/12 justify-center'>
                     <div className="h-9 w-9 rounded-full flex justify-center items-center hover:bg-dark_hover">
-                        <img src="src/assets/icons/delete.png" alt="Delete" className="w-6 h-6 hover:cursor-pointer" />
+                        <img src="/assets/images/delete.png" alt="Delete" className="w-6 h-6 hover:cursor-pointer" />
                     </div>
                     <div className="h-9 w-9 rounded-full flex justify-center items-center hover:bg-dark_hover">
-                        <img src="src/assets/icons/delete.png" alt="Delete" className="w-6 h-6 hover:cursor-pointer" />
+                        <img src="/assets/images/delete.png" alt="Delete" className="w-6 h-6 hover:cursor-pointer" />
                     </div>
                 </div>
             </div>

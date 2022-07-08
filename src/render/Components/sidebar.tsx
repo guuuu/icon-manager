@@ -1,25 +1,33 @@
 import * as React from 'react';
-import { ipcRenderer } from 'electron';
-
-const QuitApp = (confirm: boolean) => {
-    // ipcRenderer.send('close-me');
-    console.log("yoyo");
-}
+import { useState } from 'react';
+import Modal from './modal'
 
 const Sidebar = () => {
+    const [showRestoreModal, setShowRestoreModal] = useState(false);
+    const QuitApp = (confirm: boolean) => {
+        window.electron.quit();
+    }
+
+    const RestoreWindowsDefaults = () => {
+        setShowRestoreModal(!showRestoreModal);
+        console.log("plplplplplplpl");
+    }
+
     return(
         <>
             <div className="bg-sidebar_bg h-full w-1/4 flex items-start flex-col z-10 text-white capitalize">
                 <Header />
-                <Button icon="/src/assets/icons/myicons.png" text="My icons" />
-                <Button icon="/src/assets/icons/reset.png" text="Restore windows defaults" />
-                <Button icon="/src/assets/icons/about.png" text="About" />
-                <Button icon="/src/assets/icons/IE.png" text="Import / Export" />
-                <Button icon="/src/assets/icons/settings.png" text="Settings" />
-                <Button icon="/src/assets/icons/quit.png" text="Quit" onClick={
+                <Button icon = "/assets/images/myicons.png" text="My icons" />
+                <Button icon = "/assets/images/reset.png" text="Restore windows defaults" onClick={() => {RestoreWindowsDefaults();}}/>
+                <Button icon = "/assets/images/about.png" text="About" />
+                <Button icon = "/assets/images/IE.png" text="Import / Export" />
+                <Button icon = "/assets/images/settings.png" text="Settings" />
+                <Button icon = "/assets/images/quit.png" text="Quit" onClick={
                     () => { QuitApp(false); }
                 }/>
             </div>
+
+            {showRestoreModal && <Modal title='Teste' content='banana' open/>}
         </>
     )
 }

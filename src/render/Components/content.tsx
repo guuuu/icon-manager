@@ -32,19 +32,19 @@ const Content = () => {
                 </Tooltip>
             </div>
             <div className="w-full h-full flex flex-col mt-4 overflow-y-auto">
-                <Icon icon="src/assets/icons/default/py.png" name="Python" parent_name="" cs />
-                <Icon icon="src/assets/icons/default/svelte.svg" name="Svelte" parent_name="" cs />
-                <Icon icon="src/assets/icons/default/c.svg" name="C" parent_name="" cs />
-                <Icon icon="src/assets/icons/default/typescript.svg" name="TypeScript" parent_name="" cs />
-                <Icon icon="src/assets/icons/default/angular.svg" name="angular" parent_name="" cs />
-                <Icon icon="src/assets/icons/default/assembly.svg" name="assembly" parent_name="" cs />
-                <Icon icon="src/assets/icons/default/bower.svg" name="bower" parent_name="" cs />
-                <Icon icon="src/assets/icons/default/coconut.svg" name="coconut" parent_name="" cs />
-                <Icon icon="src/assets/icons/default/nodejs.svg" name="nodejs" parent_name="" cs />
-                <Icon icon="src/assets/icons/default/xml.svg" name="xml" parent_name="" cs />
-                <Icon icon="src/assets/icons/default/zip.svg" name="zip" parent_name="" cs />
-                <Icon icon="src/assets/icons/default/vim.svg" name="vim" parent_name="" cs />
-                <Icon icon="src/assets/icons/default/teal.svg" name="teal" parent_name="" cs />
+                <Icon icon="/assets/icons/default/svelte.svg" name="Svelte" parent_name="" cs />
+                <Icon icon="/assets/icons/default/python.svg" name="Python" parent_name="" cs />
+                <Icon icon="/assets/icons/default/c.svg" name="C" parent_name="" cs />
+                <Icon icon="/assets/icons/default/typescript.svg" name="TypeScript" parent_name="" cs />
+                <Icon icon="/assets/icons/default/angular.svg" name="angular" parent_name="" cs />
+                <Icon icon="/assets/icons/default/assembly.svg" name="assembly" parent_name="" cs />
+                <Icon icon="/assets/icons/default/bower.svg" name="bower" parent_name="" cs />
+                <Icon icon="/assets/icons/default/coconut.svg" name="coconut" parent_name="" cs />
+                <Icon icon="/assets/icons/default/nodejs.svg" name="nodejs" parent_name="" cs />
+                <Icon icon="/assets/icons/default/xml.svg" name="xml" parent_name="" cs />
+                <Icon icon="/assets/icons/default/zip.svg" name="zip" parent_name="" cs />
+                <Icon icon="/assets/icons/default/vim.svg" name="vim" parent_name="" cs />
+                <Icon icon="/assets/icons/default/teal.svg" name="teal" parent_name="" cs />
             </div>
         </>
     )
